@@ -2,6 +2,13 @@
 [日本語readme](Readme_JP.md "日本語readme")
 
 [下载地址](https://github.com/njfdCRH1A/TIMS-Excel/raw/refs/heads/main/TIMS_tool_v2.xlsx "下载地址")
+## 2026/6/15更新
+vibe coding（？）了个[python脚本文件](Station_kilopost_tools/ "python脚本文件")提取车站里程
+将这个文件夹中的所有内容下载后将线路文件（以BVETS MAP 2.00开头的文件）拖放至bat文件即可自动提取，支持批量提取，结果保存在bat同目录下以“源文件名+stations.txt”命名。
+
+运行环境准备：你需要安装[python](https://www.python.org/ "python")并设置好环境变量
+原理：bat文件负责把文件丢给core.py，由core.py处理好文件后输出结果，至于core.py是怎么实现的我没仔细看（）反正是vibecoding出来的东西能跑就行（（（
+如果车站里程另存于其它的文件，以及车站里程包括变量的话，程序无法提取这类车站里程，用@zbx1425制作的[QMV](https://www.zbx1425.cn/nautilus/quickmap/index.zh-CN.html "QMV")查看车站里程罢（逃
 ## 文件概览
 M电时刻表编辑区
 ![](readme/M_Staff.png)

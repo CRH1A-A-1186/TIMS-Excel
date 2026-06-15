@@ -1,6 +1,15 @@
 （DeepLで翻訳したため、意味に不正確な点がある可能性があります）
 # TIMS構文作成電卓
 [ダウンロード](https://github.com/njfdCRH1A/TIMS-Excel/raw/refs/heads/main/TIMS_tool_v2.xlsx"ダウンロード")
+## 2026年6月15日アップデート
+vibeが[Pythonスクリプトファイル](Station_kilopost_tools/ 「Pythonスクリプトファイル」)を作成し、駅の距離を抽出できるようにしました。
+このフォルダ内のすべての内容をダウンロードした後、路線ファイル（ファイル名が「BVETS MAP 2.00」で始まるもの）をbatファイルにドラッグ＆ドロップするだけで自動的に抽出されます。一括抽出に対応しており、結果はbatファイルと同じディレクトリに「元のファイル名+stations.txt」という名前で保存されます。
+
+実行環境の準備：[Python](https://www.python.org/ 「Python」)をインストールし、環境変数を設定する必要があります。
+仕組み：batファイルはファイルをcore.pyに渡す役割を担い、core.pyがファイルを処理して結果を出力します。core.pyがどのように実装されているかは詳しく見ていません（）とにかくvibecodingで作られたもので動けばいいのです（（（
+駅距離が別のファイルに保存されている場合や、駅距離に変数が含まれている場合、本プログラムでは抽出できません。@zbx1425氏が作成した[QMV](https://www.zbx1425.cn/nautilus/quickmap/index.zh-CN.html 「QMV」)で駅距離を確認してください（逃
+
+DeepL.com（無料版）で翻訳しました。
 ## ファイル概要
 M電時刻表編集エリア
 ![](readme/M_Staff.png)
