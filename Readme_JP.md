@@ -1,6 +1,6 @@
 （DeepLで翻訳したため、意味に不正確な点がある可能性があります）
 # TIMS構文作成電卓
-[ダウンロード](https://github.com/njfdCRH1A/TIMS-Excel/raw/refs/heads/main/TIMS_tool_v2.xlsx"ダウンロード")
+[ダウンロード](https://github.com/CRH1A-A-1186/TIMS-Excel/raw/refs/heads/main/TIMS_tool_v2.xlsx"ダウンロード")
 ## 2026年6月15日アップデート
 vibeが[Pythonスクリプトファイル](Station_kilopost_tools/ 'Pythonスクリプトファイル')を作成し、駅の距離を抽出できるようにしました。
 このフォルダ内のすべての内容をダウンロードした後、路線ファイル（ファイル名が「BVETS MAP 2.00」で始まるもの）をbatファイルにドラッグ＆ドロップするだけで自動的に抽出されます。一括抽出に対応しており、結果はbatファイルと同じディレクトリに「元のファイル名+stations.txt」という名前で保存されます。

@@ -1,7 +1,7 @@
 # TIMS生成器
 [日本語readme](Readme_JP.md "日本語readme")
 
-[下载地址](https://github.com/njfdCRH1A/TIMS-Excel/raw/refs/heads/main/TIMS_tool_v2.xlsx "下载地址")
+[下载地址](https://github.com/CRH1A-A-1186/TIMS-Excel/raw/refs/heads/main/TIMS_tool_v2.xlsx "下载地址")
 ## 2026/6/15更新
 vibe coding（？）了个[python脚本文件](Station_kilopost_tools/ "python脚本文件")提取车站里程
 将这个文件夹中的所有内容下载后将线路文件（以BVETS MAP 2.00开头的文件）拖放至bat文件即可自动提取，支持批量提取，结果保存在bat同目录下以“源文件名+stations.txt”命名。
